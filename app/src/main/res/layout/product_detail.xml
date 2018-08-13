@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:id="@+id/layoutDetail"
+    android:background="@drawable/bg">
+
+
+    <ImageView
+        android:id="@+id/imgProduct"
+        android:layout_width="115dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <Button
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignEnd="@id/imgProduct"
+        android:layout_alignStart="@id/imgProduct"
+        android:layout_below="@+id/imgProduct"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_bg"
+        android:drawableLeft="@drawable/buy"
+        android:text="15B"
+        android:textAlignment="textStart"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
